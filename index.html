@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myjs.js"></script>
+</head>
+
+<body>
+    <div class="formarea">
+      <h2>Registration</h2>
+    
+
+    <form id="registration-form"method="post" action="myform.php">
+        <h3>Personal Detail</h3>
+        <div class="myform">
+            <div class="left">
+                <div class="f1">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="f1">
+                    <label for="mobile">Mobile Number</label>
+                    <input type="number" name="mobile" id="mobile" placeholder="Enter your mobile number">
+                </div>
+            </div>
+                <div class="middel">
+                    <div class="f1">
+                        <label for="birth">Date of Birth</label>
+                        <input type="text" name="birth" id="birth" placeholder="Enter birth date">
+                    </div>
+                    <div class="f1">
+                        <label for="gender">Gender</label>
+                        <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+                    </div>
+                </div>
+                
+            
+            <div class="right">
+                <div class="f1">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                
+                <div class="f1">
+                    <label for="occupation">Occupation</label>
+                    <input type="text" name="occupation" id="occupation" placeholder="Enter occupation">
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3>Identity Details</h3>
+        </div>
+        <div class="myform2">
+            <div class="left">
+                <div class="f1">
+                    <label for="id">ID Type</label>
+                    <input type="text" name="id" id="id" placeholder="Enter ID type">
+                </div>
+                <div class="f1">
+                    <label for="issue">Issue Date</label>
+                    <input type="text" name="issue" id="issue" placeholder="Enter ID issue date">
+                </div>
+            </div>
+                <div class="middel">
+                    <div class="f1">
+                        <label for="idnu">ID Number</label>
+                        <input type="text" name="idnu" id="idnu" placeholder="Enter ID number">
+                    </div>
+                    <div class="f1">
+                        <label for="issuestate">Issue State</label>
+                        <input type="text" name="issuestate" id="issuestate" placeholder="Enter ID issue state">
+                    </div>
+                </div>
+                
+            
+            <div class="right">
+                <div class="f1">
+                    <label for="issueauthority">Issue Authority</label>
+                    <input type="text" name="issueauthority" id="issueauthority" placeholder="Enter issue department">
+                </div>
+                
+                <div class="f1">
+                    <label for="expiry">Expiry Date</label>
+                    <input type="text" name="expiry" id="expiry" placeholder="Enter ID expiry date">
+                </div>
+            </div>
+        </div>
+        
+        <button class="mybutton" id="next-button" type="submit">Next &#10140;</button>
+    </form>
+</div>
+
+</body>
+
+</html>
